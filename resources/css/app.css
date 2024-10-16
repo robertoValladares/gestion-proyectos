@@ -1,0 +1,19 @@
+.project-row {
+    cursor: pointer; /* Cambia el cursor para indicar que se puede hacer clic */
+}
+
+.project-row:hover {
+    background-color: #f8f9fa; /* Color de fondo al pasar el mouse */
+}
+
+.project-row.selected {
+    background-color: #e2e6ea; /* Color de fondo al seleccionar */
+}
+
+.btn i {
+    margin-right: 5px; /* Espacio entre el ícono y el texto */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgb(108 186 221 / 18%) !important;
+}
